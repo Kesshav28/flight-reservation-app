@@ -30,7 +30,6 @@ pipeline{
                 cd  FlightReservationApplication
                 docker build -t kesshav28/flightreservation-new:latest .
                 docker push kesshav28/flightreservation-new:latest
-                docker rmi 'docker image list -aq'
                 '''
             }
         }
